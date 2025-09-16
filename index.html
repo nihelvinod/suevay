@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <h1>submit succesfully</h1>
+    <div class="bg">
+        <h1>SURVEY FORM</h1>
+        <div class="container">
+        <form action="submit.html">
+            <h4 style="text-align: center;">let us know how we can improve</h4>
+            <table>
+                <tr>
+            <td style="width :50% ;text-align: right;"><label for="">Name</label></td>
+            <td><input class="aa" type="text"placeholder="enter your name"></td>
+                </tr>
+                <tr>
+                    <tr>
+            <td style="width :50% ;text-align: right;"><label for="">Email</label></td>
+            <td><input class="aa" type="email" placeholder="Enter the Email"></td>
+            </tr>
+            <tr>
+            <td style="width :50% ;text-align: right;"><label for="">Age</label></td>
+            <td><input  class="aa" type="number" placeholder="Enter the Age"></td>
+        </tr>
+        <tr>
+            <td style="width :50% ;text-align: right;"><label for="">Upload file</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td style="width :50% ;text-align: right;"><label for="">Which option best describes your current job?</label></td>
+            <td>
+                <select class="aa" fdprocess>
+                    <option>Student</option>slot
+                    <option>Employee</option>slot
+                    <option>Other</option>slot
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%; text-align: right;">
+                <label id="how" for>How likely is that you would recommend this program to a friend?</label></td>
+              <td>
+                <input type="radio" name="how" value="Definitely">
+                <label for>Definitely</label><br>
+                <input type="radio" name="how" value="Maybe">
+                <label for>Maybe</label><br>
+                <input type="radio" name="how" value="Not sure">
+                <label for>Not sure</label>
+              </td>  
+
+
+        </tr>
+         <tr>
+                        <td style="width: 50%; text-align: right;"><label for="">What do you like the most here?</label></td>
+                        <td>
+                            <select class="aa">
+                                <option selected disabled>Select an option</option>
+                                <option>Teaching</option>
+                                <option>Projects</option>
+                                <option>Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%; text-align: right;">
+                            <label id="future" >Things that should be improved in the future (Check all that apply):</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="future" value="Front-end Projects">
+                            <label for="">Front-end Projects</label> <br>
+                            <input type="checkbox" name="future" value="Back-end Projects">
+                            <label for="">Back-end Projects</label> <br>
+                            <input type="checkbox" name="future" value="Data Visualization">
+                            <label for="">Data Visualization</label> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%; text-align: right;"><label for="">Any Comments or Suggestions?</label></td>
+                        <td><textarea placeholder="Enter your comment here..." rows="4" cols="20"></textarea></td>
+                    </tr>
+                <tr><td colspan="2" style="text-align: center;">
+            <button type="submit" fdprocessedid="n61ha">Submit</button> </td>
+        </tr>
+            </table>
+        </form> 
+    </div>
+    </div>
 </body>
 </html>
